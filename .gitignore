@@ -10,3 +10,15 @@ target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputF
 target/study-client-starter-1.0-SNAPSHOT.jar
 .idea/vcs.xml
 .idea/workspace.xml
+.idea/study-client-starter.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/libraries/Maven__org_springframework_spring_jcl_5_3_4.xml
+.idea/libraries/Maven__org_springframework_spring_expression_5_3_4.xml
+.idea/libraries/Maven__org_springframework_spring_core_5_3_4.xml
+.idea/libraries/Maven__org_springframework_spring_context_5_3_4.xml
+.idea/libraries/Maven__org_springframework_spring_beans_5_3_4.xml
+.idea/libraries/Maven__org_springframework_spring_aop_5_3_4.xml
+.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_3.xml
+.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_3.xml
+.idea/compiler.xml

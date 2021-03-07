@@ -6,6 +6,7 @@
  */
 package com.cjq.studyClientStarter.configure;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,5 +19,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @ComponentScan({"com.cjq.studyClientStarter.service.impl"})
+@ConditionalOnProperty(prefix = "cjq",name = "enable",havingValue = "true")
 public class HelloServiceConfigure {
 }
