@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HelloServiceImpl implements HelloService {
 
-    @Value("cjq.testStr")
+    @Value("${cjq.testStr}")
     private String testStr;
 
     public String getTestStr() {
