@@ -7,6 +7,7 @@
 package com.cjq.studyClientStarter.service.impl;
 
 import com.cjq.studyClientStarter.service.HelloService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
@@ -18,7 +19,19 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class HelloServiceImpl implements HelloService {
+
+    @Value("cjq.testStr")
+    private String testStr;
+
+    public String getTestStr() {
+        return testStr;
+    }
+
+    public void setTestStr(String testStr) {
+        this.testStr = testStr;
+    }
+
     public String sayHello() {
-        return "hello!!";
+        return "hello!!" + testStr;
     }
 }

@@ -22,3 +22,4 @@ target/study-client-starter-1.0-SNAPSHOT.jar
 .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_3.xml
 .idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_3.xml
 .idea/compiler.xml
+target/study-client-starter-1.0-SNAPSHOT-sources.jar
